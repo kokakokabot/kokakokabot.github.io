@@ -79,7 +79,7 @@ footer {
 .contact-icons {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 10px;
 }
 
 .contact-icons a img {

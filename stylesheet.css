@@ -1,3 +1,4 @@
+/* General Formatting */
 body {
     font-family: Arial, sans-serif;
     color: #333;
@@ -64,4 +65,27 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+/* Contact Section*/
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.contact-icons a img {
+    height: 40px;
+    width: 45px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

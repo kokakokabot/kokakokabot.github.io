@@ -89,3 +89,49 @@ footer {
     margin-left: auto;
     margin-right: auto;
 }
+
+/* Projects Section */
+.project {
+    text-align: center;
+    margin: 20px;
+    position: relative;
+    display: inline-block; /* Display projects side by side */
+}
+
+.project img {
+    width: 200px; /* Adjust based on your preference */
+    height: auto;
+    border-radius: 4px;
+}
+
+.project-info p {
+    margin: 0;
+    color: #000;
+    font-weight: bold;
+}
+
+.project-info {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255,255,255,0.8); /* Semi-transparent white */
+    color: #333;
+    border-radius: 4px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.project:hover .project-info {
+    display: flex;
+}
+
+.project-summary {
+    font-size: 0.8em;
+    margin-top: 10px;
+}

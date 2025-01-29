@@ -78,6 +78,8 @@ header {
   position: relative;
   overflow: hidden;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .hero-overlay {

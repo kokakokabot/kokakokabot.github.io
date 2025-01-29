@@ -9,62 +9,65 @@
 
 
   <header>
-    <h1>Damir Kokic</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="navbar">
+      <h1 class="logo">Damir Kokic</h1>
+      <nav>
+        <ul>
+          <li class="nav-link"><a href="index.html">Home</a></li>
+          <li class="nav-link"><a href="about.html">About</a></li>
+          <li class="nav-link"><a href="projects.html">Projects</a></li>
+          <li class="nav-link"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-
   <main>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h2>Welcome to My Portfolio</h2>
+        <p>I’m a data analytics professional showcasing my favorite projects and experiments.</p>
+        <button class="cta-button">View My Work</button>
+      </div>
+    </section>
+
     <section class="featured-projects">
       <h2>Featured Projects</h2>
+
       <div class="project-list">
-        
-        <article>
-          <!-- Image for Project 1 -->
+        <article class="project-card">
           <img src="images/coffee_price_analysis.png" alt="Coffee Price Analysis" />
           <h3><a href="projects/coffee_price_analysis.html">Coffee Price Analysis</a></h3>
-          <p>A brief description of the Coffee Price Analysis project.</p>
+          <p>Exploring coffee market trends and price fluctuations worldwide.</p>
         </article>
-        
-        <article>
-          <!-- Image for Project 2 -->
+
+        <article class="project-card">
           <img src="images/stockholm_airbnb.png" alt="Stockholm AirBnB Analysis" />
           <h3><a href="projects/stockholmAirBnB.html">Stockholm AirBnB</a></h3>
-          <p>A brief description of the Stockholm AirBnB project.</p>
+          <p>Analyzing rental data to uncover pricing strategies and top neighborhoods.</p>
         </article>
-        
-        <article>
-          <!-- Image for Project 3 -->
+
+        <article class="project-card">
           <img src="images/credit_risk_prediction.png" alt="Credit Risk Prediction" />
           <h3><a href="projects/credit_risk_prediction.html">Credit Risk Prediction</a></h3>
-          <p>A brief description of the Credit Risk Prediction project.</p>
+          <p>Building models to estimate the probability of default for new applicants.</p>
         </article>
-        
-        <article>
-          <!-- Image for Project 4 -->
+
+        <article class="project-card">
           <img src="images/pdf_data_scraper.png" alt="PDF Data Scraper" />
           <h3><a href="projects/pdf_data_scraper.html">PDF Data Scraper</a></h3>
-          <p>A brief description of the PDF Data Scraper project.</p>
+          <p>A Python tool to extract, parse, and analyze tabular data from PDFs.</p>
         </article>
-        
-        <article>
-          <!-- Image for Project 5 -->
-          <img src="images/superstore_sales.png" alt="Superstore Sales Analysis" />
+
+        <article class="project-card">
+          <img src="images/superstore_sales.png" alt="Superstore Sales" />
           <h3><a href="projects/superstore_sales.html">Superstore Sales</a></h3>
-          <p>A brief description of the Superstore Sales project.</p>
+          <p>Reviewing retail data to identify sales trends and profitability drivers.</p>
         </article>
-        
       </div>
     </section>
   </main>
-
 
   <footer>
     <p>© 2025 Damir Kokic</p>
